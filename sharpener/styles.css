@@ -1,0 +1,33 @@
+body {
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+form {
+    /* text-align: center; */
+    padding: 30px 0px 0px 0px;
+    font-size: larger;
+}
+
+.name{
+    padding-left: 55px;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding-left: 10px;
+    width: 200px;
+    /* height: auto; */
+}
+
+
+div {
+    margin: 70px auto auto auto;
+    width: 500px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.7);
+}

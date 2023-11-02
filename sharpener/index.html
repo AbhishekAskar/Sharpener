@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAV</title>
+    <link rel="stylesheet" href="styles.css">
+        
+    
+</head>
+
+<body>
+    <div>
+        <form action="#" onsubmit="onsignup(event)">
+            <label for="fname" class="name">Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname" class="name">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="lname" class="name">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="lname" class="name">Time for Call:</label><br>
+            <input type="date" id="date" name="date">
+            <input type="time" id="time" name="time"><br>
+            <input type="submit" value="GET A CALL">
+        </form>
+    </div>
+    <script>
+        function onsignup(event) {
+            event.preventDefault();
+            console.log(event.target.fname.value);
+            console.log(event.target.email.value);
+            console.log(event.target.phone.value);
+            console.log(event.target.date.value);
+            console.log(event.target.time.value);
+        }
+    </script>
+</body>
+
+</html>
